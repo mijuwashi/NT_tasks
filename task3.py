@@ -1,6 +1,6 @@
 import json
 
-with open('C:/Users/Lenovo/Downloads/tests.json', 'r') as f1, open('C:/Users/Lenovo/Downloads/values.json', 'r') as f2:
+with open('C:\Users\Lenovo\Downloads\tests.json', 'r') as f1, open('C:\Users\Lenovo\Downloads\values.json', 'r') as f2:
     tests_data = json.load(f1)
     values_data = json.load(f2)
 
